@@ -25,10 +25,8 @@ $class_result = $conn->query("SELECT * FROM classes");
 <html lang="en">
 <head>
     <title>Manage Classes</title>
-     <!-- Link to Custom CSS (style.css) -->
-    <link rel="stylesheet" href="css/style.css"> <!-- Make sure the path is correct -->
+    <link rel="stylesheet" href="css/style.css"> 
     <link rel="stylesheet" href="css/style.css?v=1.0">
-    <!-- Link to Bootstrap CSS for additional styling -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>

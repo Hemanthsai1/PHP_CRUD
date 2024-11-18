@@ -8,7 +8,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $class_id = $_POST['class_id'];
     $image = $_FILES['image'];
 
-    // Check if the email already exists in the same class
     $query = "SELECT * FROM student WHERE email = '$email' AND class_id = $class_id";
     $result = $conn->query($query);
     if ($result->num_rows > 0) {

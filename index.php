@@ -60,7 +60,6 @@ $result = $conn->query($query);
     <a href="classes.php" class="btn btn-primary">Manage Classes</a>
 </div>
 
-<!-- Add Bootstrap JS for interactivity -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
