@@ -26,7 +26,7 @@ VS Code (or any other code editor)
 ### Step 1: Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Hemanthsai1/PHP_CRUD.git
 
 
 Step 2: Set up the environment
